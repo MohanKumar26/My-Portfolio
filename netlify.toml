@@ -1,5 +1,5 @@
 [build]
-  publish = "My-Portfolio/Portfolio HTML"
+  publish = "."
 
 [[redirects]]
   from = "/"
