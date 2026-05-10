@@ -1,13 +1,13 @@
 const CATEGORY_CONFIG = {
-  'reels-shorts':    { ratio: '9/16',  thumbSize: 'w600-h900' },
-  'corporate':       { ratio: '16/9',  thumbSize: 'w800-h450' },
-  'cinematic':       { ratio: '21/9',  thumbSize: 'w900-h386' },
-  'motion-graphics': { ratio: '16/9',  thumbSize: 'w800-h450' },
-  'logo-reveal':     { ratio: '1/1',   thumbSize: 'w600-h600' },
-  'kineatic-stomp':  { ratio: '16/9',  thumbSize: 'w800-h450' },
-  'ppt-designs':     { ratio: '4/3',   thumbSize: 'w800-h600' },
-  'static-posters':  { ratio: '2/3',   thumbSize: 'w600-h900' },
-  'rotract':         { ratio: '16/9',  thumbSize: 'w800-h450' },
+  'reels-shorts': { ratio: '9/16', thumbSize: 'w600-h900' },
+  'corporate': { ratio: '16/9', thumbSize: 'w800-h450' },
+  'cinematic': { ratio: '21/9', thumbSize: 'w900-h386' },
+  'motion-graphics': { ratio: '16/9', thumbSize: 'w800-h450' },
+  'logo-reveal': { ratio: '16/9', thumbSize: 'w600-h600' },
+  'kineatic-stomp': { ratio: '16/9', thumbSize: 'w800-h450' },
+  'ppt-designs': { ratio: '4/3', thumbSize: 'w800-h600' },
+  'static-posters': { ratio: '2/3', thumbSize: 'w600-h900' },
+  'rotract': { ratio: '16/9', thumbSize: 'w800-h450' },
 };
 
 const PORTFOLIO_ITEMS = [
@@ -104,5 +104,34 @@ const PORTFOLIO_ITEMS = [
     categoryLabel: "Reels and Shorts Videos",
     desc: "Reels and Shorts Video",
     driveId: "1ub7g62VSqFavWJFsfqc_8kCP9pAxLTH8",
+  },
+  {
+    name: "Video 13",
+    category: "logo-reveal",
+    categoryLabel: "Logo Reveal",
+    desc: "Overall Logo Reveal",
+    driveId: "15QFlt-4G8_Adps7i_dChxvqJSOeBRvXg",
+    thumbnail: "thumbnails/Logo Reval 01.png",
+  },
+  {
+    name: "Video 14",
+    category: "logo-reveal",
+    categoryLabel: "Logo Reveal",
+    desc: "Logo Reveal",
+    ytId: "VabOmgmCWzU",
+  },
+  {
+    name: "Video 15",
+    category: "ppt-designs",
+    categoryLabel: "PPT Designs",
+    desc: "PPT Design",
+    driveId: "15iDzbQiwikcOIha17zI2QUUG1EtMyk10",
+  },
+  {
+    name: "Design 1",
+    category: "static-posters",
+    categoryLabel: "Static Posters",
+    desc: "Static Poster Design",
+    driveId: "1LMxJyZBt3VIzb27wrt8xtCW-dOP-PkiA",
   },
 ];
