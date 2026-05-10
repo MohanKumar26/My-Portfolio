@@ -1,0 +1,8 @@
+[build]
+  publish = "My-Portfolio/Portfolio HTML"
+
+[[redirects]]
+  from = "/"
+  to = "/E. MohanKumar — Video Editor & Graphic Designer.html"
+  status = 200
+  force = true
