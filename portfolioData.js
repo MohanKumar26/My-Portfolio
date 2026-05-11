@@ -453,11 +453,11 @@ const PORTFOLIO_ITEMS = [
     desc: "PPT Design",
     driveId: "1GU5-my1ylAtNkTENrlTj-1wP8NUogpCL",
   },
-  // {
-  //   name: "Design 1",
-  //   category: "static-posters",
-  //   categoryLabel: "Static Posters",
-  //   desc: "Static Poster Design",
-  //   driveId: "1LMxJyZBt3VIzb27wrt8xtCW-dOP-PkiA",
-  // },
+  {
+    name: "Design 1",
+    category: "static-posters",
+    categoryLabel: "Static Posters",
+    desc: "Static Poster Design",
+    driveId: "",
+  },
 ];
