@@ -8,6 +8,7 @@
   <meta name="description"
     content="Creative Video Editor & Graphic Designer with 3+ years crafting cinematic visual content, motion graphics, and brand-focused design based in Chennai.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
     href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300&display=swap"
     rel="stylesheet">
@@ -753,8 +754,10 @@
     .portfolio-thumb-bg {
       position: absolute;
       inset: 0;
-      background-size: cover;
-      background-position: center;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
     }
 
     .portfolio-overlay {
@@ -1751,6 +1754,15 @@
           View My Work
         </a>
         <a href="#contact" class="btn-secondary">Hire Me</a>
+        <a href="https://drive.google.com/uc?export=download&id=1i6dOD_9S7HrTHfMonYXPKvFGduMwrdR6" class="btn-primary">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+            <polyline points="7 10 12 15 17 10"></polyline>
+            <line x1="12" y1="15" x2="12" y2="3"></line>
+          </svg>
+          Download Resume
+        </a>
       </div>
     </div>
     <div class="hero-scroll">
@@ -1849,7 +1861,7 @@
 
     <div class="insta-dashboard reveal reveal-delay-3">
       <div class="insta-header">
-        <img src="Profile/penflock-logo.jpg" class="insta-pfp" alt="Penflock Profile">
+        <img src="Profile/penflock-logo.jpg" class="insta-pfp" alt="Penflock Profile" loading="lazy">
         <div class="insta-info">
           <div class="insta-username">
             pen_flock
@@ -1872,7 +1884,7 @@
       <div class="insta-grid">
         <!-- Post 1 -->
         <a href="https://www.instagram.com/pen_flock/" target="_blank" class="insta-post">
-          <img src="Profile/p01.png" alt="Reel 1">
+          <img src="Profile/p01.png" alt="Reel 1" loading="lazy">
           <div class="insta-icon">
             <svg width="14" height="14" viewBox="0 0 24 24" fill="white">
               <path d="M8 5v14l11-7z" />
@@ -1881,7 +1893,7 @@
         </a>
         <!-- Post 2 -->
         <a href="https://www.instagram.com/pen_flock/" target="_blank" class="insta-post">
-          <img src="Profile/p02.png" alt="Reel 2">
+          <img src="Profile/p02.png" alt="Reel 2" loading="lazy">
           <div class="insta-icon">
             <svg width="14" height="14" viewBox="0 0 24 24" fill="white">
               <path d="M8 5v14l11-7z" />
@@ -1890,7 +1902,7 @@
         </a>
         <!-- Post 3 -->
         <a href="https://www.instagram.com/pen_flock/" target="_blank" class="insta-post">
-          <img src="Profile/p03.png" alt="Reel 3">
+          <img src="Profile/p03.png" alt="Reel 3" loading="lazy">
           <div class="insta-icon">
             <svg width="14" height="14" viewBox="0 0 24 24" fill="white">
               <path d="M8 5v14l11-7z" />
@@ -1899,7 +1911,7 @@
         </a>
         <!-- Post 4 -->
         <a href="https://www.instagram.com/pen_flock/" target="_blank" class="insta-post">
-          <img src="Profile/p04.png" alt="Reel 4">
+          <img src="Profile/p04.png" alt="Reel 4" loading="lazy">
           <div class="insta-icon">
             <svg width="14" height="14" viewBox="0 0 24 24" fill="white">
               <path d="M8 5v14l11-7z" />
@@ -1908,11 +1920,11 @@
         </a>
         <!-- Post 5 -->
         <a href="https://www.instagram.com/pen_flock/" target="_blank" class="insta-post">
-          <img src="Profile/p05.png" alt="Post 5">
+          <img src="Profile/p05.png" alt="Post 5" loading="lazy">
         </a>
         <!-- Post 6 -->
         <a href="https://www.instagram.com/pen_flock/" target="_blank" class="insta-post">
-          <img src="Profile/p06.png" alt="Post 6">
+          <img src="Profile/p06.png" alt="Post 6" loading="lazy">
         </a>
       </div>
     </div>
@@ -2159,6 +2171,18 @@
           </a>
 
         </div>
+        <div style="margin-top: 36px;">
+          <a href="https://drive.google.com/uc?export=download&id=1i6dOD_9S7HrTHfMonYXPKvFGduMwrdR6"
+            class="btn-primary">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+              <polyline points="7 10 12 15 17 10"></polyline>
+              <line x1="12" y1="15" x2="12" y2="3"></line>
+            </svg>
+            Download Resume
+          </a>
+        </div>
       </div>
       <div class="contact-form reveal reveal-delay-1">
         <form id="contactForm">
@@ -2224,7 +2248,7 @@
         const ytAttr = item.ytId ? ` data-yt="${item.ytId}"` : '';
         return `<div class="portfolio-item reveal${delayClass}" style="aspect-ratio:${cfg.ratio};" data-cat="${item.category}" data-title="${item.categoryLabel}" data-desc="${item.desc}"${driveAttr}${ytAttr}>
         <div class="portfolio-thumb">
-          <div class="portfolio-thumb-bg" style="background:url('${thumb}') center/cover no-repeat;"></div>
+          <img class="portfolio-thumb-bg" src="${thumb}" alt="${item.name}" loading="lazy">
         </div>
         <div class="portfolio-overlay">
           <div class="portfolio-cat">${item.categoryLabel}</div>
