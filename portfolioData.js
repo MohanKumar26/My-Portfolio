@@ -29,6 +29,22 @@ const PORTFOLIO_ITEMS = [
     revealDelay: 2,
   },
   {
+    name: "EXpandub 01",
+    category: "reels-shorts",
+    categoryLabel: "Reels and Shorts Videos",
+    desc: "Reels and Shorts Video",
+    driveId: "1cFqit2zo-826HDEDNp-Zl-2zhxOslk6c",
+    thumbnail: "thumbnails/EXpandub 01.png",
+  },
+  {
+    name: "EXpandub 02",
+    category: "reels-shorts",
+    categoryLabel: "Reels and Shorts Videos",
+    desc: "Reels and Shorts Video",
+    driveId: "1Bs5ddpTYNbN0qyR8FEESUylYyqNyndot",
+    thumbnail: "thumbnails/EXpandub 02.png",
+  },
+  {
     name: "Video 1",
     category: "reels-shorts",
     categoryLabel: "Reels and Shorts Videos",
